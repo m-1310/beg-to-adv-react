@@ -7,10 +7,10 @@ function App() {
  return(
   <>
   <Card/>
-  {/*  
+   
   <Header></Header>
   <Food/>
-  <Footer/>*/}
+  <Footer/>
   </>
  );
 }
