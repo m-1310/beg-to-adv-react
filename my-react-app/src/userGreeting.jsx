@@ -14,11 +14,12 @@ function UserGreeting(props){
       );
     }
 }
+
 UserGreeting.propTypes={
   isLoggedIn: PropTypes.bool,
   username: PropTypes.string,
 }
-Username.defaultProps = {
+UserGreeting.defaultProps = {
   isLoggedIn: false,
   username: "Guest",
 }
