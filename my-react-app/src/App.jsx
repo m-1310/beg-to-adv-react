@@ -6,13 +6,15 @@ import Button from "./Button.jsx"
 import Student from "./Student.jsx"
 import UserGreeting from "./userGreeting.jsx"
 import List from "./List.jsx"
+import ProfilePicture from "./Profile.jsx"
 
 function App() {
 
  return(
   <>
+  <ProfilePicture/>
   <Button/>
-  <br></br>
+  
   <List></List>
   <UserGreeting isLoggedIn={true} username="Manish"></UserGreeting>
   <UserGreeting isLoggedIn={false} username="Manish"></UserGreeting>
