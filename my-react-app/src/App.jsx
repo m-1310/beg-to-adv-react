@@ -11,6 +11,8 @@ function App() {
 
  return(
   <>
+  <Button/>
+  <br></br>
   <List></List>
   <UserGreeting isLoggedIn={true} username="Manish"></UserGreeting>
   <UserGreeting isLoggedIn={false} username="Manish"></UserGreeting>
@@ -20,7 +22,7 @@ function App() {
   <Student name="Sandy" age={27} isStudent={true}></Student>
   <Student></Student>
   <Card/>
-  <Button/>
+  
   <Header></Header>
   <Food/>
   <Footer/>
