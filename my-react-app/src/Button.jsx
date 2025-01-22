@@ -21,7 +21,6 @@ function Button(){
     e.target.textContent = "OUCH! 😒"
   }
 
-  
   return(
     <>
     <button className="button" onClick={()=>handleClick2("Bro")}>
