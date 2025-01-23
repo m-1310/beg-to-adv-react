@@ -8,11 +8,13 @@ import UserGreeting from "./userGreeting.jsx"
 import List from "./List.jsx"
 import ProfilePicture from "./Profile.jsx"
 import MyComponent from "./MyComponent.jsx"
+import Counter from "./Counter.jsx"
 
 function App() {
 
  return(
   <>
+  <Counter></Counter>
   <MyComponent></MyComponent>
   <ProfilePicture/>
   <Button/>
