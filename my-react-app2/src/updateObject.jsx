@@ -31,7 +31,7 @@ function UpdateObject(){
   <input type="number" value={car.year} onChange={handleYearChange}></input><br/>
   <input type="text" value={car.make} onChange={handleMakeChange}></input><br/>
   <input type="text" value={car.model} onChange={handleModelChange}></input><br/>
- </div>
+ </div><br/>
  ///////////////////////////////////////////////////////////////////////////////////////////////////////
  <div>
     <h2>List of Food</h2>
