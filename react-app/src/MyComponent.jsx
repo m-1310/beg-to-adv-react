@@ -10,7 +10,6 @@ function MyComponent(){
     console.log("Comp. Rendered");
   });
 
-
   function handleClick1(){
     inputRef1.current.focus();
     inputRef1.current.style.backgroundColor = "yellow";
@@ -36,9 +35,11 @@ function MyComponent(){
     <button onClick={handleClick1}>Click Me!</button>
     <input ref={inputRef1}></input>
     <br/>
+
     <button onClick={handleClick2}>Click Me!</button>
     <input ref={inputRef2}></input>
     <br/>
+    
     <button onClick={handleClick3}>Click Me!</button>
     <input ref={inputRef3}></input>
   </>)
